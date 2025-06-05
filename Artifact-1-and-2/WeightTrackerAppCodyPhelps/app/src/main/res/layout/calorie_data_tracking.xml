@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView (takes ~half the screen) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/calorieRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Bottom Layout with TextView, EditText, and Buttons (fixed, non-scrolling) -->
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/totalDeficitTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Total Deficit: 0 kcal (0.00 lbs)"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/calorieIntakeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Enter Calorie Intake"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/caloriesBurnedEditText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Enter burned calories!"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/calDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="25sp"
+            android:hint="Date/Time here" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btnAddIntakeCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:text="Add Calories" />
+
+            <Button
+                android:id="@+id/btnRemoveCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove Calories" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

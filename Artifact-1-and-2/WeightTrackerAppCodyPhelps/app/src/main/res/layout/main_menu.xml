@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/loggedInAs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Logged in as:"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/ibWeightTracker"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/weight_tracking"
+        android:contentDescription="Weight Tracking"/>
+
+    <ImageButton
+        android:id="@+id/ibCalorieTracker"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/calorie_tracking"
+        android:contentDescription="Calorie Tracking"/>
+
+    <ImageButton
+        android:id="@+id/ibChart"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/graph_chart"
+        android:contentDescription="Graphs"/>
+    <ImageButton
+        android:id="@+id/ibSMSPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sms_permission"
+        android:contentDescription="SMS Permission"/>
+
+</LinearLayout>
