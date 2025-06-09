@@ -83,11 +83,6 @@ public class CalorieRecyclerAdapter extends RecyclerView.Adapter<CalorieRecycler
             CalorieViewHolder.dailyCalorieDate.setTextColor(ContextCompat.getColor(context, android.R.color.black));
         } else {
             CalorieViewHolder.itemView.setBackgroundColor(ContextCompat.getColor(context, android.R.color.transparent));
-            CalorieViewHolder.calorieIDText.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            CalorieViewHolder.intakeCal.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            CalorieViewHolder.burnCal.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            CalorieViewHolder.calDeficit.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            CalorieViewHolder.dailyCalorieDate.setTextColor(ContextCompat.getColor(context,android.R.color.holo_blue_dark));
         }
 
         CalorieViewHolder.itemView.setOnClickListener(v -> {

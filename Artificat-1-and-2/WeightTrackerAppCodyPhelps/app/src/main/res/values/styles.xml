@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Style for blue text -->
-    <style name="BlueText">
-        <item name="android:textColor">@color/blue</item>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowBackground">?attr/colorOnBackground</item>
+        <item name="android:textColorPrimary">?attr/colorPrimary</item>
     </style>
+
+
 
     <!-- Style for white button text and blue button background -->
     <style name="BlueButton">

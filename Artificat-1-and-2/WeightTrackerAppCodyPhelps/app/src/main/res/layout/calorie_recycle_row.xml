@@ -17,7 +17,7 @@
             android:padding="12dp">
 
             <TextView
-                android:id="@+id/weightIDText"
+                android:id="@+id/calorieIDText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
@@ -28,33 +28,31 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/recycleCurrWeight"
+                android:id="@+id/recycleIntakeCalories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="4dp"
-                android:text="Current Weight"
+                android:text="Intake Calories"
                 android:textSize="20sp"
 
-                app:layout_constraintStart_toEndOf="@+id/weightIDText"
-                app:layout_constraintTop_toTopOf="@+id/weightIDText" />
+                app:layout_constraintStart_toEndOf="@+id/calorieIDText"
+                app:layout_constraintTop_toTopOf="@+id/calorieIDText" />
 
             <TextView
-                android:id="@+id/recyclePrevWeight"
+                android:id="@+id/recycleBurnedCalories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Previous Weight"
-                android:textColor="@color/black"
-                app:layout_constraintStart_toStartOf="@+id/recycleCurrWeight"
-                app:layout_constraintTop_toBottomOf="@+id/recycleCurrWeight" />
+                android:text="Burned Calories"
+                app:layout_constraintStart_toStartOf="@+id/recycleIntakeCalories"
+                app:layout_constraintTop_toBottomOf="@+id/recycleIntakeCalories" />
 
             <TextView
-                android:id="@+id/recycleDate"
+                android:id="@+id/recycleCalDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Date"
                 android:textSize="18sp"
-                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -63,24 +61,24 @@
                 android:layout_width="81dp"
                 android:layout_height="23dp"
                 android:layout_marginTop="4dp"
-                android:text="GOAL"
+                android:text="Deficit"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
-                app:layout_constraintStart_toEndOf="@+id/recycleCurrWeight"
+                app:layout_constraintStart_toEndOf="@+id/recycleIntakeCalories"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/recycleGoalWeight"
+                android:id="@+id/recycleCalDeficit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="GOAL"
+                android:text="Deficit"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.236"
-                app:layout_constraintStart_toEndOf="@+id/recyclePrevWeight"
+                app:layout_constraintStart_toEndOf="@+id/recycleBurnedCalories"
                 app:layout_constraintTop_toBottomOf="@+id/textView2"
                 app:layout_constraintVertical_bias="0.23" />
 

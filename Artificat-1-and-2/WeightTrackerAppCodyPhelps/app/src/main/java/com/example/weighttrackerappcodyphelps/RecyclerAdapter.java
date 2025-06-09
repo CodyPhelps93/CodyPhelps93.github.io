@@ -76,11 +76,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             holder.goalWeightTxt.setTextColor(ContextCompat.getColor(context, android.R.color.black));
         } else {
             holder.itemView.setBackgroundColor(ContextCompat.getColor(context, android.R.color.transparent));
-            holder.userIdTxt.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            holder.currentWeightTxt.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            holder.previousWeightTxt.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            holder.currDateTxt.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark));
-            holder.goalWeightTxt.setTextColor(ContextCompat.getColor(context,android.R.color.holo_blue_dark));
+
         }
 
         holder.itemView.setOnClickListener(v -> {

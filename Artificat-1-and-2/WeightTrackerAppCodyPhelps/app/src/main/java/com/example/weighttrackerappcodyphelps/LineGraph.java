@@ -11,7 +11,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -79,6 +81,7 @@ public class LineGraph extends AppCompatActivity {
         weightDataSet.setLineWidth(2f);
         weightDataSet.setValueTextSize(12f);
         weightDataSet.setCircleColor(Color.BLUE);
+        weightDataSet.setValueTextColor(Color.WHITE);
         weightDataSet.setCircleRadius(4f);
 
 
@@ -108,6 +111,7 @@ public class LineGraph extends AppCompatActivity {
                 predictionDataSet.setCircleColor(Color.RED);
                 predictionDataSet.setCircleRadius(4f);
                 predictionDataSet.setDrawCircles(true);
+                predictionDataSet.setValueTextColor(Color.WHITE);
                 dataSets.add(predictionDataSet);
             } catch (IllegalArgumentException | ArithmeticException e) {
                 Toast.makeText(this, "Error calculating prediction: " + e.getMessage(), Toast.LENGTH_SHORT).show();
@@ -127,9 +131,20 @@ public class LineGraph extends AppCompatActivity {
             xAxis.setLabelCount(maxLabels , true);
             xAxis.setGranularityEnabled(true);
             xAxis.setGranularity(1.5f);
+            xAxis.setTextColor(Color.WHITE);
         } else {
             lineChart.getXAxis().setValueFormatter(null); // Fallback to indices
         }
+
+        //Change y-axis color for dark background
+        YAxis yAxis = lineChart.getAxisLeft();
+        yAxis.setTextColor(Color.WHITE);
+        YAxis rAxis = lineChart.getAxisRight();
+        rAxis.setTextColor(Color.WHITE);
+
+        //Change legend text white
+        Legend legend = lineChart.getLegend();
+        legend.setTextColor(Color.WHITE);
 
 
         lineChart.getDescription().setEnabled(false);
