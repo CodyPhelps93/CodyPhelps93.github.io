@@ -24,7 +24,7 @@ This artifact orginally used 4 views:
 This caused a clutter of different objects on the view and was not user friendly. This will take us to the first enhancement which is for software engineering and design.
 You can see the code for before and after here:
 - <code> <a href="https://github.com/CodyPhelps93/CS-360-Android-Development">Artifact 1 Before enhancements</a></code>
-- <code> <a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/tree/Artifact1and2/Artifact-1-and-2/WeightTrackerAppCodyPhelps">Artifact 1 After enhancements</a></code>
+- <code> <a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/tree/Artifact1and2/Artificat-1-and-2/WeightTrackerAppCodyPhelps">Artifact 1 After enhancements</a></code>
 
 ## Software Engineering and Design:
 For this enhancement I chose to refactor the entire UI/UX of the application. This would take away the clutter and make the application more user friendly as well as adding a better sense of navigation. With this enhancement I decided to include
