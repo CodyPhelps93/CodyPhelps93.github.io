@@ -33,7 +33,7 @@ and then
 
 You can see the code for before and after here:
 - <code> <a href="https://github.com/CodyPhelps93/CS-360-Android-Development">Artifact 1 Before enhancements</a></code>
-- <code> <a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/tree/Artifact1and2/Artificat-1-and-2/WeightTrackerAppCodyPhelps">Artifact 1 After enhancements</a></code>
+- <code> <a href="https://github.com/CodyPhelps93/CS-360-Enhanced">Artifact 1 After enhancements</a></code>
 
 ## Software Engineering and Design:
 **What specific components of the artifact showcase your skills and abilities in software development?**
@@ -58,7 +58,7 @@ You can see the code for before and after here:
 - Improved security and user-specific data handling.
 
 **Lessons Learned, Challenges, and Feedback** <br/><br/>
-I learned many different things while improving this applicaiton, such as brighter isn't always the best way to approach the colors of an application. Adding contrast can pull your attention to the areas of the applicaiton that you would like the user to notice. The orginal applicaiton's components being tightly wrapped into 1 main view made where the user had no navigation choice. The feedback that I recieved for this enhancement was that the background was to bright and my images that I used for the buttons were skewed. To fix this I redone the images to a different resolution that is shared by most phone, and I changed the theme of the application. Now the theme is not as heavy on the eyes and is pleasant to look at. While enhanceing the UI I wanted some features that required knowing what user was logged in so I incorporated a sharedPreference. This allowed me to save the current user logged in and to display it on the main menu. This is for users that may have multiple people on one device such as a tablet. The sharedPreference also allowed me to add more security to my SQL queries as before it would show all the data from that particular column because at that time we did not know what user was logged in. Adding the shared preferense also reminded me to include input validation for SQL injection so I added a new security layer by including this.
+I learned many different things while improving this applicaiton, such as brighter isn't always the best way to approach the colors of an application. Adding contrast can pull your attention to the areas of the applicaiton that you would like the user to notice. The orginal applicaiton's components being tightly wrapped into 1 main view made where the user had no navigation choice. The feedback that I recieved for this enhancement was that the background was to bright and my images that I used for the buttons were skewed. To fix this I changed the images to a different resolution that is shared by most phone, and I changed the theme of the application. Now the theme is not as heavy on the eyes and is pleasant to look at. While enhanceing the UI I wanted some features that required knowing what user was logged in so I incorporated a sharedPreference. This allowed me to save the current user logged in and to display it on the main menu. This is for users that may have multiple people on one device such as a tablet. The sharedPreference also allowed me to add more security to my SQL queries as before it would show all the data from that particular column because at that time we did not know what user was logged in. Adding the shared preferense also reminded me to include input validation for SQL injection so I added a new security layer by including this.
 
 **Successfully demostrated outcomes:**
 - Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
@@ -70,5 +70,31 @@ I learned many different things while improving this applicaiton, such as bright
   - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
  
 ## Algorithms and Data Structure
+
+**What specific components of the artifact showcase your skills and abilities in data structure and algorithms?**
+- Prediction Algorithm: Developed a constant-time 0(1) algorithm to forecast future weights using a linear regresssion formula.
+- Data Structure(List) Structured weight and date data in a list for efficient retrieval and manipulation from the SQLite database.
+- Graphical Display: Enhanced the app to visualize predicted weight trends on a graph, showcasing the ability to translate algorithmic outputs into user-friendly formats.
+
+**How did the enhancement improve the artifact?**
+-  Users are now able to see predicted weights for 7 or 30 days away. This will allow the user to be more informed on their weight goals.
+
+**What specific skills did you demonstrate in the enhancement?**
+- Developed a prediction algorithm to forecast future weights based on user data, displayed on a graph.
+- Structured data in a list for efficient retrieval and manipulation from SQLite database.
+- Translate mathmatical formula to a working prediction model.
+
+**Improvements Achieved:**
+- Added a weight prediction algorithm using first and last weight entries and the days between them, that uses linear regression.
+- Enhanced graphical display to show predicted weight trends, improving user insight into progress.
+
+**Lessons Learned, Challenges, and Feedback** <br/><br/>
+Developing the prediction algorithm for this artifact taught me to think creatively about gathering the necessary data for the formula used. The algorithm achieves constant-time comlexity 0(1) by referencing only the first and last data points in the list. This eliminates the need for loops and addtional data iterations. I had to consider how I would take the data from the database and store it so that I could use this data in the formula. Another challenge that I had is that the orginal artifact stored the date as a string in the database. This could have been refactored and stored and changed to hold a date instead of string but I found that this gave me an opputunity to parse this data and convert it using Java's DateTimeFormatter which is something that will be useful in future endeavors. 
+
+**Successfully demostrated outcomes:**
+- 
+
+**Outcomes there were not met with this enhancement were:**
+- 
     
 
