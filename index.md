@@ -2,7 +2,7 @@
 title: Cody Phelps ePortfolio
 ---
 
-# Introduction
+# Introduction {#about}
 Hello, my name is Cody Phelps. This ePortfolio serves as a comprehensive showcase of my technical skills, professional growth, and readiness to contribute to the field of computer science. Throughout my coursework and capstone enhancements I’ve developed experiences in full-stack development, data structures, algorithms and database management. This has prepared me to excel in different roles as a software developer.
 
 # Computer Science Journey
@@ -12,7 +12,7 @@ Throughout my course work in my capstone class, I’ve learned how I can take ol
 # Artifacts Review
 In CS 499 I was tasked with enhancing artifacts in three different categories: **Software Design and Development**, **Algorithms and Data Structures**, and **Databases**. For Software Design and Development and Algorithms and Data Structures I chose to use my android application for tracking weight that I had previously built for my CS 360 class. The goal of this artifact was to show my skills in UI/UX design and building an algorithm for predicting weight using a regression algorithm. For my second artifact and my third enhancement I chose a project that was previously developed in Java. It uses a command line interface (CLI) to intake either monkeys or dogs and allow you to reserve them. For this artifact I decided to build a GUI using Blazer MAUI Hybrid and incorporate a MongoDB database. 
 
-# Code Review
+# Code Review {#code_review}
 This code review showcases my ability to debug and look for security issues within the projects that I've seleted. Computer science professionals should be able to do this as it can improve: 
 - Code Quality
 - Help with Consistency
@@ -20,7 +20,7 @@ This code review showcases my ability to debug and look for security issues with
 
 <code> View my code review on youtube <a href="https://youtu.be/tBN6gzXDQrs">here</a></code>
 
-## Artifact 1 Weight Tracking Application:
+## Artifact 1 Weight Tracking Application: {#artifact_1}
 - **Briefly describe the artifact.** <br/>
   - An Android application for tracking weight developed from design to final product for my CS 360 class.
 - **When was it created?** <br/>
@@ -45,7 +45,7 @@ You can see the code for before and after here:
 - <code> <a href="https://github.com/CodyPhelps93/CS-360-Android-Development">Artifact 1 Before enhancements</a></code>
 - <code> <a href="https://github.com/CodyPhelps93/CS-360-Enhanced">Artifact 1 After enhancements</a></code>
 
-### Software Engineering and Design:
+### Software Engineering and Design: {#enhancement_1}
 **What specific components of the artifact showcase your skills and abilities in software development?**
 - Android development: Built a fully functional application with a SQLite database.
 - UI/UX Design: Conducted research to inform design choices, ensuring intuitive navigation and themes.
@@ -119,7 +119,7 @@ Developing the prediction algorithm for this artifact taught me to think creativ
  - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
 - Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
 
-## Artifact 2 IT-145 Grazioso Animal Intake
+## Artifact 2 IT-145 Grazioso Animal Intake {#artifact_2}
 - **Briefly describe the artifact.**
   - This is an animal intake command line interface that is used to intake dogs or monkeys used for training and rescue.
 - **When was it created**
@@ -164,5 +164,11 @@ You can see the before and after code here:
 **Lessons Learned, Challeges, and Feedback**
 This was a fun and challenging enhancment as I developed it using a framework I've never used before. I wanted to learn how Blazor worked and to see a different style of component based building. I wanted this to resemble a simple dashboard in which the user could easily intake and remove animals one a single screen. One of the challenges I faced was how can I get rid of some of the need for all the different user input. To solve this issue I decided it would be a good option to have the user have different options and to use a date selector when entering some of the data. This took out 99% of user typed input which helps to reduce any type of injection attacks and helps to cut down on user input validation. This also makes it easier on the user so they can just select the information that is needed.
 
-
+**Successfully demostrated outcomes:**
+- Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+  - Completed by incorporating the new GUI so that users have a way of looking at the data in visual form without using a CLI.
+- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)
+  - Completed by incorporating the new DB with a brand-new GUI for users to be able to use.
+- Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+   - completed by adding an Input Validation Class to check user inputs for NoSQL injections. 
 
