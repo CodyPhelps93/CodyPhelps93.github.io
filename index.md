@@ -45,7 +45,7 @@ You can see the code for before and after here:
 - <code> <a href="https://github.com/CodyPhelps93/CS-360-Android-Development">Artifact 1 Before enhancements</a></code>
 - <code> <a href="https://github.com/CodyPhelps93/CS-360-Enhanced">Artifact 1 After enhancements</a></code>
 
-## Software Engineering and Design:
+### Software Engineering and Design:
 **What specific components of the artifact showcase your skills and abilities in software development?**
 - Android development: Built a fully functional application with a SQLite database.
 - UI/UX Design: Conducted research to inform design choices, ensuring intuitive navigation and themes.
@@ -87,7 +87,7 @@ I learned many different things while improving this applicaiton, such as bright
 **Outcomes there were not met with this enhancement were:**
   - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
  
-## Algorithms and Data Structure
+### Algorithms and Data Structure
 
 **What specific components of the artifact showcase your skills and abilities in data structure and algorithms?**
 - Prediction Algorithm: Developed a constant-time 0(1) algorithm to forecast future weights using a linear regresssion formula.
@@ -119,6 +119,50 @@ Developing the prediction algorithm for this artifact taught me to think creativ
  - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
 - Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
 
-# Artifact 2 IT-145 Grazioso Animal Intake
+## Artifact 2 IT-145 Grazioso Animal Intake
+- **Briefly describe the artifact.**
+  - This is an animal intake command line interface that is used to intake dogs or monkeys used for training and rescue.
+- **When was it created**
+  - This was created during my first year in IT-145.
+- **Why did you select this item**
+  - I selected this artifact because it gave me a chance to not only show off my C# ablilites but to also use BLazor MAUI Hybrid to build a GUI and to showcase:
+    - Building a MongoDB database
+    - Implementing it with .Net and blazor using nuget package.
+
+I used this artifact for the final enhancement for ```databases```.
+- **Original Features**
+  - Intake Dog, or Monkey
+  - Reserve Dog or Monkey
+  - Print List of Avaliable Animals
+  - Print List of All Animals
+  - Animal Objects initialiy saved into a list
+ 
+You can see the before and after code here:
+- <code> <a href="https://github.com/CodyPhelps93/IT-145/tree/main">Artifact 2 before enhancements</a></code>
+- <code> <a href="https://github.com/CodyPhelps93/IT-145-Enhanced">Artifact 2 after enhancements</a></code>
+
+### Database
+**What specific components of the artifact showcase your skills and abilities in software development?**
+- C# using .Net framework with Blazor
+- MongoDB implementation for animal data
+- HTML with Bootstrap styling
+
+**How did the enhancement improve the artifact?**
+- This enhancement added a graphical user interface (GUI) with forms that auto-populate depending on the selected animal.
+- Adds MongoDB to replace in-memory storage, this allows for more scalable solutions in the future.
+
+**What specific skills did you demostrate in the enhancement?**
+- UI Design
+- C# and .NET
+- MongoDB setup and queries with CRUD operations
+
+**Improvements Achieved:**
+- MongoDB successfuly intakes animals and allows for CRUD oeprations.
+- Replace CLI with GUI for better visual usage.
+- Replace questions with Forms for better data handling.
+
+**Lessons Learned, Challeges, and Feedback**
+This was a fun and challenging enhancment as I developed it using a framework I've never used before. I wanted to learn how Blazor worked and to see a different style of component based building. I wanted this to resemble a simple dashboard in which the user could easily intake and remove animals one a single screen. One of the challenges I faced was how can I get rid of some of the need for all the different user input. To solve this issue I decided it would be a good option to have the user have different options and to use a date selector when entering some of the data. This took out 99% of user typed input which helps to reduce any type of injection attacks and helps to cut down on user input validation. This also makes it easier on the user so they can just select the infomration that is needed.
+
 
 
