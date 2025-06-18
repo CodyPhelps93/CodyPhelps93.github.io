@@ -2,6 +2,16 @@
 title: Cody Phelps ePortfolio
 ---
 
+# Introduction
+Hello, my name is Cody Phelps. This ePortfolio serves as a comprehensive showcase of my technical skills, professional growth, and readiness to contribute to the field of computer science. Throughout my coursework and capstone enhancements I’ve developed experiences in full-stack development, data structures, algorithms and database management. This has prepared me to excel in different roles as a software developer.
+
+# Computer Science Journey
+During my journey here I’ve created many different applications that have helped me to learn the fundamentals of computer science. I’ve been able to practice with data structures and algorithms as well as full stack development using different databases such as MongoDB and SQL. It has also taught me the importance of being able to translate requirements and explain them to a non-technical audience. <br/>
+Throughout my course work in my capstone class, I’ve learned how I can take old code and refactor it and even transfer one application to another. By doing the code review in this course I was able to learn more about looking for errors in code and paying attention to the structure of code. It helps to point out mistakes and errors that may be overlooked or not even thought about. SNHU has allowed me to gain experience in team collaboration with discussions about issues that we were all having and gain solutions and insight into what was going on. While developing my android application I was able to gather information and requirements from different potential users and to communicate the technical requirements to a non-technical user. Throughout all these projects and course work and as I grew as a developer and found that not only did it help me in the Computer Science field but also in my problem-solving skills. I found that I can break problems down into smaller problems and create different solutions for those smaller problems. By building up the smaller solutions I’m able to tackle larger problems more efficiently. I've learned how to build databases and connect them to full-stack applications. I've even challenged myself by using different programs and frameworks not taught here at SNHU. From implementing Breath First Search (BFS) algorithms to search through data in a CSV file to building my first Blazor application featured in this ePortfolio, I've acquired the skills needed to become a successful software engineer or developer.
+
+# Artifacts Review
+In CS 499 I was tasked with enhancing artifacts in three different categories: **Software Design and Development**, **Algorithms and Data Structures**, and **Databases**. For Software Design and Development and Algorithms and Data Structures I chose to use my android application for tracking weight that I had previously built for my CS 360 class. The goal of this artifact was to show my skills in UI/UX design and building an algorithm for predicting weight using a regression algorithm. For my second artifact and my third enhancement I chose a project that was previously developed in Java. It uses a command line interface (CLI) to intake either monkeys or dogs and allow you to reserve them. For this artifact I decided to build a GUI using Blazer MAUI Hybrid and incorporate a MongoDB database. 
+
 # Code Review
 This code review showcases my ability to debug and look for security issues within the projects that I've seleted. Computer science professionals should be able to do this as it can improve: 
 - Code Quality
@@ -10,7 +20,7 @@ This code review showcases my ability to debug and look for security issues with
 
 <code> View my code review on youtube <a href="https://youtu.be/tBN6gzXDQrs">here</a></code>
 
-## Artifact 1:
+## Artifact 1 Weight Tracking Application:
 - **Briefly describe the artifact.** <br/>
   - An Android application for tracking weight developed from design to final product for my CS 360 class.
 - **When was it created?** <br/>
