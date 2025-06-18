@@ -151,6 +151,10 @@ You can see the before and after code here:
 - This enhancement added a graphical user interface (GUI) with forms that auto-populate depending on the selected animal.
 - Adds MongoDB to replace in-memory storage, this allows for more scalable solutions in the future.
 
+**Before and After Enhancement**<br/>
+![Before Enhancement](assets/images/IT145_CLI_Interface.png) <br/>
+![After Enhancement](assets/images/IT145_Blazor_GUI2.png)
+
 **What specific skills did you demostrate in the enhancement?**
 - UI Design
 - C# and .NET
