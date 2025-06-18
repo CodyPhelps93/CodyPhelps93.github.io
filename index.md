@@ -72,12 +72,20 @@ I learned many different things while improving this applicaiton, such as bright
 
 **Successfully demostrated outcomes:**
 - Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+  - Shown by UI/UX design and changed made from feedback given.
+  - SharedPreferences demostrates consideration for diverse users.
+- Design, develop and deliver professional-quality oral, written, and visual communications that are coherent, technically sound and appropriately adapted to specific audiences
+  - Completed by the refactoring of the UI and how users visual navigate the application.
+  - Changing the theme to improve readablility and to help reduce eye strain.
 - Demonstrate an ability to use well-founded and innovative techniques, skills and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry specific goals.
+  - Calorie Tracker adds value by addressing other health releated goals for the user and aligns with other fitness/wellness applications.
+  - Refactoring of the RecyclerView for better presentation of data.
 - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+  - Done by implementing a SQL injection prevention using input validation and a list of common injection patterns
+  - SharedPreferences for user identification which allowed for user-specific data to be shown helping with privacy concerns. This also allowed for queries scoped to only the logged-in user which reduces data leakage.
 
 **Outcomes there were not met with this enhancement were:**
   - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
-  - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
  
 ## Algorithms and Data Structure
 
@@ -102,9 +110,15 @@ I learned many different things while improving this applicaiton, such as bright
 Developing the prediction algorithm for this artifact taught me to think creatively about gathering the necessary data for the formula used. The algorithm achieves constant-time comlexity 0(1) by referencing only the first and last data points in the list. This eliminates the need for loops and addtional data iterations. I had to consider how I would take the data from the database and store it so that I could use this data in the formula. Another challenge that I had is that the orginal artifact stored the date as a string in the database. This could have been refactored and stored and changed to hold a date instead of string but I found that this gave me an opputunity to parse this data and convert it using Java's DateTimeFormatter which is something that will be useful in future endeavors. 
 
 **Successfully demostrated outcomes:**
-- 
+- Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)
+  - Done by implementing a linear regression algorithm for weight prediction.
+- Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+  - Completed by introducing input validation on types. This was to make sure that the conversions were done and that the correct value was being passed. 
 
 **Outcomes there were not met with this enhancement were:**
-- 
-    
+ - Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+- Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+
+# Artifact 2 IT-145 Grazioso Animal Intake
+
 
