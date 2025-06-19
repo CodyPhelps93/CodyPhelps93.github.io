@@ -59,7 +59,7 @@ You can see the code for before and after here:
 
   **Before Enhancement**<br/>
 <img src="assets/images/CS360_Original.png" alt="Before enhancement" width="400"> <br/>
-**After Enhancement**
+**After Enhancement**<br/>
 <img src="assets/images/CS360_Enhanced.png" alt="After enhancement" width="400">
 
 **What specific skills did you demonstrate in the enhancement?**
@@ -158,7 +158,7 @@ You can see the before and after code here:
 
 **Before Enhancement**<br/>
 <img src="assets/images/IT145_CLI_Interface.png" alt="Before enhancement" width="400"> <br/>
-**After Enhancement**
+**After Enhancement**<br/>
 <img src="assets/images/IT145_Blazor_GUI2.png" alt="After enhancement" width="400">
 
 **What specific skills did you demostrate in the enhancement?**
