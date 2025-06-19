@@ -10,7 +10,7 @@ During my journey here I’ve created many different applications that have help
 Throughout my course work in my capstone class, I’ve learned how I can take old code and refactor it and even transfer one application to another. By doing the code review in this course I was able to learn more about looking for errors in code and paying attention to the structure of code. It helps to point out mistakes and errors that may be overlooked or not even thought about. SNHU has allowed me to gain experience in team collaboration with discussions about issues that we were all having and gain solutions and insight into what was going on. While developing my android application I was able to gather information and requirements from different potential users and to communicate the technical requirements to a non-technical user. Throughout all these projects and course work and as I grew as a developer and found that not only did it help me in the Computer Science field but also in my problem-solving skills. I found that I can break problems down into smaller problems and create different solutions for those smaller problems. By building up the smaller solutions I’m able to tackle larger problems more efficiently. I've learned how to build databases and connect them to full-stack applications. I've even challenged myself by using different programs and frameworks not taught here at SNHU. From implementing Breath First Search (BFS) algorithms to search through data in a CSV file to building my first Blazor application featured in this ePortfolio, I've acquired the skills needed to become a successful software engineer or developer.
 
 # Artifacts Review
-In CS 499 I was tasked with enhancing artifacts in three different categories: **Software Design and Development**, **Algorithms and Data Structures**, and **Databases**. For Software Design and Development and Algorithms and Data Structures I chose to use my android application for tracking weight that I had previously built for my CS 360 class. The goal of this artifact was to show my skills in UI/UX design and building an algorithm for predicting weight using a regression algorithm. For my second artifact and my third enhancement I chose a project that was previously developed in Java. It uses a command line interface (CLI) to intake either monkeys or dogs and allow you to reserve them. For this artifact I decided to build a GUI using Blazer MAUI Hybrid and incorporate a MongoDB database. 
+In CS 499 I was tasked with enhancing artifacts in three different categories: **Software Design and Development**, **Algorithms and Data Structures**, and **Databases**. For Software Design and Development and Algorithms and Data Structures I chose to use my android application for tracking weight that I had previously built for my CS 360 class. The goal of this artifact was to show my skills in UI/UX design and building an algorithm for predicting weight using a regression algorithm. For my second artifact and my third enhancement I chose a project that was previously developed in Java. It uses a command line interface (CLI) to intake either monkeys or dogs and allow you to reserve them. For this artifact I decided to build a GUI using Blazer MAUI Hybrid and incorporate a MongoDB database. Below is my artifacts with a narrative for more detailed narratives click [here](#narratives)
 
 # Code Review {#code_review}
 This code review showcases my ability to debug and look for security issues within the projects that I've seleted. Computer science professionals should be able to do this as it can improve: 
@@ -56,6 +56,11 @@ You can see the code for before and after here:
 - Improved Navigation: Reduced scrolling issues, making the app more intuitive, and added a Menu for view selection.
 - SharedPreferences: Tracks logged-in users, improving security and personalization, especially for multi-user devices.
 - Security Layer: added input validation to prevent SQL injection.
+
+  **Before Enhancement**<br/>
+<img src="assets/images/CS360_Original.png" alt="Before enhancement" width="400"> <br/>
+**After Enhancement**
+<img src="assets/images/CS360_Enhanced.png" alt="After enhancement" width="400">
 
 **What specific skills did you demonstrate in the enhancement?**
  - UI/UX design based on user feedback
@@ -151,8 +156,9 @@ You can see the before and after code here:
 - This enhancement added a graphical user interface (GUI) with forms that auto-populate depending on the selected animal.
 - Adds MongoDB to replace in-memory storage, this allows for more scalable solutions in the future.
 
-**Before and After Enhancement**<br/>
+**Before Enhancement**<br/>
 <img src="assets/images/IT145_CLI_Interface.png" alt="Before enhancement" width="400"> <br/>
+**After Enhancement**
 <img src="assets/images/IT145_Blazor_GUI2.png" alt="After enhancement" width="400">
 
 **What specific skills did you demostrate in the enhancement?**
@@ -174,5 +180,15 @@ This was a fun and challenging enhancment as I developed it using a framework I'
 - Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)
   - Completed by incorporating the new DB with a brand-new GUI for users to be able to use.
 - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
-   - completed by adding an Input Validation Class to check user inputs for NoSQL injections. 
+   - completed by adding an Input Validation Class to check user inputs for NoSQL injections.
+- Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+  - Completed by delivery a front-end UI targeted specifically toward Grazioso users to meet their needs.
+ 
+**Oucomes not met:**
+- Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices. <br/>
+
+### Detailed Narratives {#narratives}
+<kbd>[Narrative 1](https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%201.pdf)</kbd> <br/>
+<kbd>[Narrative 2](https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%202.pdf)</kbd> <br/>
+<kbd>[Narrative 3](https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%203.pdf)</kbd>
 
