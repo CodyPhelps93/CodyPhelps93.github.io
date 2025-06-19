@@ -188,7 +188,7 @@ This was a fun and challenging enhancment as I developed it using a framework I'
 - Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices. <br/>
 
 ### Detailed Narratives {#narratives}
-<kbd>[Narrative 1](https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%201.pdf)</kbd> <br/>
-<kbd>[Narrative 2](https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%202.pdf)</kbd> <br/>
-<kbd>[Narrative 3](https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%203.pdf)</kbd>
+<a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%201.pdf">Narrative 1 <a/><br/>
+<a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%202.pdf">Narrative 2 <a/><br/>
+<a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%203.pdf">Narrative 3<a/>
 
