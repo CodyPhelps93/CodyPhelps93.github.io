@@ -58,9 +58,9 @@ You can see the code for before and after here:
 - Security Layer: added input validation to prevent SQL injection.
 
   **Before Enhancement**<br/>
-<img src="assets/images/CS360_Original.png" alt="Before enhancement" width="400"> <br/>
+<img src="assets/images/CS360_Original.png" alt="Before enhancement" width="600"> <br/>
 **After Enhancement**<br/>
-<img src="assets/images/CS360_Enhanced.png" alt="After enhancement" width="400">
+<img src="assets/images/CS360_Enhanced.png" alt="After enhancement" width="600">
 
 **What specific skills did you demonstrate in the enhancement?**
  - UI/UX design based on user feedback
