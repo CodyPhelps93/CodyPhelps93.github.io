@@ -190,5 +190,8 @@ This was a fun and challenging enhancment as I developed it using a framework I'
 ### Detailed Narratives {#narratives}
 <a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%201.pdf">Narrative 1 <a/><br/>
 <a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%202.pdf">Narrative 2 <a/><br/>
-<a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%203.pdf">Narrative 3<a/>
+<a href="https://github.com/CodyPhelps93/CodyPhelps93.github.io/blob/main/PDF%20Narratives/Enhancement%203.pdf">Narrative 3<a/><br/>
+
+[Back to Top](#about)
+
 
