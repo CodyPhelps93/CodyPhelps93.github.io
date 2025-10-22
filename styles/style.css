@@ -35,6 +35,7 @@ h1 {
     background-color: #a2724b;
     color: #ffffff;
 }
+/* side bar and profile picture */
 
 .profile-pic {
     border: 3px solid #DF8E5D;
@@ -76,6 +77,7 @@ h1 {
     height: 40px;
 }
 
+/* Main Feed */
 .feed {
     border: 3px solid #DF8E5D;
     box-shadow: #333333 2px 2px 10px;
@@ -229,7 +231,6 @@ h1 {
     color: #ffffff; 
     border-color: #DF8E5D;
 }
-
 
 
 

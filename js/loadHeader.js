@@ -16,5 +16,4 @@ fetch(headerPath)
     })
     .catch(error => {
         console.error('Error loading header:', error);
-        // Bootstrap JS is included as a fallback in index.html
     });
